@@ -11,6 +11,7 @@
 
 // TODO Votre code ici.
 
+echo "<a href='exo1.php?iteration=10'>lien 1</a> <br>";
 
 /**
  * Exo 2
@@ -21,6 +22,6 @@
  */
 
 
-
-
-
+for ($i = 0; $i < 10; $i++) {
+    echo "<a href='exo2.php?iteration=$i'>lien boucle</a> <br>";
+}
